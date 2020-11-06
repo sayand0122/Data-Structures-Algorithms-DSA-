@@ -27,22 +27,3 @@ void main()
     root = 0;
     root = create();
 }
-
-/* OUTPUT 
-Enter data (-1 for no node) : 1
-For left child of 1 , Enter data (-1 for no node) : 2
-For left child of 2 , Enter data (-1 for no node) : 3
-For left child of 3 , Enter data (-1 for no node) : -1
-For right child of 3 , Enter data (-1 for no node) : -1
-For right child of 2 , Enter data (-1 for no node) : 4
-For left child of 4 , Enter data (-1 for no node) : -1
-For right child of 4 , Enter data (-1 for no node) : -1
-For right child of 1 , Enter data (-1 for no node) : 5
-For left child of 5 , Enter data (-1 for no node) : -1
-For right child of 5 , Enter data (-1 for no node) : -1
-    Binary Tree :             1
-                            /   \
-                           2     5
-                         /  \
-                        3    4
-*/
