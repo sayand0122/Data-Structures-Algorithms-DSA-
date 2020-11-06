@@ -7,10 +7,10 @@
 
 
 
-Feel free to fork it and put some more algos/ ds in it 😁
+Feel free to ***fork*** it and put some more algos/ ds in it 😁
 
-Remember to send a PR later.
+Remember to send a **PR** later.
 
 
 ## Note
-If you want to add codes in a new language open an issue first
+If you want to add codes in a new language ***open an issue first***
