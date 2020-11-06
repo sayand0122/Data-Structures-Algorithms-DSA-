@@ -21,9 +21,22 @@ struct node *create()
     newnode->right = create();
     return newnode;
 }
+int count = 0;
+int leafnodes(struct node *newnode)
+{
+    if (newnode != NULL)
+    {
+        leafnodes(newnode->left);
+        if ((newnode->left == NULL) && (newnode->right == NULL))
+            count++;
+        leafnodes(newnode->right);
+    }
+    return count;
+}
 void main()
 {
     struct node *root;
     root = 0;
     root = create();
+    printf("The number of leaf nodes : %d", leafnodes(root));
 }
