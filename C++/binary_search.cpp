@@ -1,3 +1,4 @@
+// This algo is only valid for sorted array.
 #include <stdio.h>
 int BSearch(int A[], int n, int key)
 {
