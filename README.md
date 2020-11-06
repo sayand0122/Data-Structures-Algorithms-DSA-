@@ -12,3 +12,9 @@ Remember to send a **PR** later.
 
 ## Note
 If you want to add codes in a new language ***open an issue first***
+
+
+
+## Contributors
+
+<td align="center"><a href="https://github.com/sayand0122"><img src="https://avatars1.githubusercontent.com/u/53222600?v=4" width="100px;" alt=""/><br /><sub><b>Sayan Dutta</b></sub></a><br /><a href="https://github.com/sayand0122/Data-Structures-Algorithms-DSA-/commits?author=sayand0122" ></td>
