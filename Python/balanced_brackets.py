@@ -2,7 +2,7 @@ class Stack():
     def __init__(self):
         self.items = []
 
-    def isEmpty(self):
+    def is_empty(self):
         return self.items == []
 
     def push(self, item):
@@ -12,10 +12,10 @@ class Stack():
         return self.items.pop()
 
     def peek(self):
-        if not self.isEmpty():
+        if not self.is_empty():
             return self.items[-1]
 
-    def getStack(self):
+    def get_stack(self):
         return self.items
 
 
@@ -40,7 +40,7 @@ def is_paren_balanced(paren_string):
         if paren in "([{":
             s.push(paren)
         else:
-            if s.isEmpty():
+            if s.is_empty():
                 is_balanced = False
             else:
                 top = s.pop()
@@ -48,7 +48,7 @@ def is_paren_balanced(paren_string):
                     is_balanced = False
         index += 1
 
-    if s.isEmpty() and is_balanced:
+    if s.is_empty() and is_balanced:
         return True
     else:
         return False
