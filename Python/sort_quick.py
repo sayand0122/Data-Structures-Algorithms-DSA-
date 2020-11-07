@@ -1,5 +1,5 @@
 def part(a, low, high):
-    i = (low-1)
+    i = low-1
     p = a[high]
     for j in range(low, high):
         if a[j] < p:
@@ -7,7 +7,7 @@ def part(a, low, high):
             a[i], a[j] = a[j], a[i]
 
         a[i+1], a[high] = a[high], a[i+1]
-        return (i+1)
+        return i+1
 
 
 def quick_sort(a, low, high):
@@ -19,11 +19,12 @@ def quick_sort(a, low, high):
 
 a = list(map(int, input().split()))
 n = len(a)
-a1 = a.sort()
-sort_a = quick_sort(a, 0, n-1)
+quick_sort(a, 0, n-1)
 print("Sorted array = ", a)
+a1 = a
+a1.sort()
 
 if a == a1:
-    print("Both inbuilt and my logic have same input")
+    print("Both inbuilt and my logic have same output")
 else:
     print("Answers are not the same")
