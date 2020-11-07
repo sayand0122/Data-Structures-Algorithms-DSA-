@@ -17,6 +17,10 @@ If you want to add codes in a new language ***open an issue first***
 
 ## Contributors
 
-<td align="left"><a href="https://github.com/sayand0122"><img src="https://avatars1.githubusercontent.com/u/53222600?v=4" width="100px;" alt=""/><sub><b>Sayan</b></sub>
-<td align="right"><a href="https://github.com/Saatvik-droid"><img src="https://avatars2.githubusercontent.com/u/55750489?s=400&v=4" width="100px;" alt=""/><sub><b>Saatvik</b></sub>
+<table>
+  <tr>
+     <td align="center"><a href="https://github.com/sayand0122"><img src="https://avatars1.githubusercontent.com/u/53222600?v=4" width="100px;" alt=""/><br /><sub><b>Sayan Dutta</b></sub></a><br /><a href="https://github.com/sayand0122/Data-Structures-Algorithms-DSA-/commits?author=sayand0122" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Saatvik-droid"><img src="https://avatars2.githubusercontent.com/u/55750489?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Saatvik</b></sub></a><br /><a href="https://github.com/sayand0122/Data-Structures-Algorithms-DSA-/commits?author=sayand0122" title="Code">💻</a></td>
+  </tr>
+</table>
   
