@@ -26,7 +26,7 @@ def deque():
         rear = -1
     else:
         front = (front + 1) % n
-        print("First element is removed from the queue")
+        print("First element is removed from the current queue")
 
 
 def display():
