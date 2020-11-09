@@ -7,7 +7,7 @@ def enqueue(item):
 
 def deque():
     if queue:
-        print(queue.pop(0))
+        print(queue.pop(0), "popped!")
     else:
         print("Queue is empty")
 
