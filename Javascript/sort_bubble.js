@@ -1,0 +1,17 @@
+function bubble_sort(arr){
+    for(var i = 0; i < arr.length; i++){
+        for(var j = 0; j < (arr.length-i-1); j++){
+            if(arr[j] > arr[j+1]){
+                var temp = arr[j]; 
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        }
+    }
+    return arr;
+}
+
+var test_arr = [4, 1, 2, 3, -1, 5];
+
+bubble_sort(test_arr);
+console.log(test_arr);
